@@ -1,0 +1,330 @@
+13.6406 	EXP 	Created instruct_text1 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=94, italic=False, name='instruct_text1', opacity=1.0, ori=0, pos=array([ 0. ,  0.5]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+13.6493 	EXP 	Created instruct_text2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=47, italic=False, name='instruct_text2', opacity=1.0, ori=0, pos=array([ 0.  ,  0.42]), rgb=array([ 255.,  255.,  255.]), text=u'will appear in the center of the screen.', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+13.6583 	EXP 	Created instruct_text3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=94, italic=False, name='instruct_text3', opacity=1.0, ori=0, pos=array([ 0.  ,  0.26]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+13.6669 	EXP 	Created instruct_text4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=47, italic=False, name='instruct_text4', opacity=1.0, ori=0, pos=array([ 0.  ,  0.08]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+13.6734 	EXP 	Created instruct_text5 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=47, italic=False, name='instruct_text5', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'not the position, of the differing number.', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+13.6813 	EXP 	Created instruct_text6 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=47, italic=False, name='instruct_text6', opacity=1.0, ori=0, pos=array([ 0.  , -0.16]), rgb=array([ 255.,  255.,  255.]), text=u'The values corresponding to the buttons are:', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+13.6942 	EXP 	Created instruct_text7 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=47, italic=False, name='instruct_text7', opacity=1.0, ori=0, pos=array([ 0.  , -0.24]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+13.7027 	EXP 	Created instruct_text8 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=47, italic=False, name='instruct_text8', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([ 255.,  255.,  255.]), text=u'Answer as accurately and quickly as possible.', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+13.7050 	EXP 	Created fix_stim = Circle(autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor='white', fillColorSpace='named', fillRGB=array([ 255.,  255.,  255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([ 255.,  255.,  255.]), lineWidth=1.0, name='fix_stim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+13.7182 	EXP 	Created first_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=174, italic=False, name='first_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'nonsense', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+13.7221 	EXP 	Created second_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=174, italic=False, name='second_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'nonsense', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+13.7250 	EXP 	Created response_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=47, italic=False, name='response_text', opacity=1.0, ori=0, pos=array([ 0. ,  0.3]), rgb=array([ 255.,  255.,  255.]), text=u'nonsense', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+13.7317 	EXP 	Created thanks = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=47, italic=False, name='thanks', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Thank you for your participation!', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+13.7369 	EXP 	TextStim: autoLog = None
+13.7369 	EXP 	TextStim: autoLog = None
+13.7369 	EXP 	TextStim: autoLog = None
+13.7369 	EXP 	TextStim: autoLog = None
+13.7369 	EXP 	TextStim: autoLog = None
+13.7369 	EXP 	TextStim: autoLog = None
+13.7369 	EXP 	TextStim: autoLog = None
+13.7369 	EXP 	TextStim: autoLog = None
+13.7369 	EXP 	Circle: autoLog = None
+13.7369 	EXP 	TextStim: autoLog = None
+13.7369 	EXP 	TextStim: autoLog = None
+13.7369 	EXP 	TextStim: autoLog = None
+13.7369 	EXP 	TextStim: autoLog = None
+13.7369 	EXP 	TextStim: autoDraw = None
+13.7369 	EXP 	TextStim: autoDraw = None
+13.7369 	EXP 	TextStim: autoDraw = None
+13.7369 	EXP 	TextStim: autoDraw = None
+13.7369 	EXP 	TextStim: autoDraw = None
+13.7369 	EXP 	TextStim: autoDraw = None
+13.7369 	EXP 	TextStim: autoDraw = None
+13.7369 	EXP 	TextStim: autoDraw = None
+21.3143 	DATA 	Keypress: 5
+21.3306 	EXP 	TextStim: autoDraw = None
+21.3306 	EXP 	TextStim: autoDraw = None
+21.3306 	EXP 	TextStim: autoDraw = None
+21.3306 	EXP 	TextStim: autoDraw = None
+21.3306 	EXP 	TextStim: autoDraw = None
+21.3306 	EXP 	TextStim: autoDraw = None
+21.3306 	EXP 	TextStim: autoDraw = None
+21.3306 	EXP 	TextStim: autoDraw = None
+21.3306 	EXP 	Circle: autoDraw = None
+24.3314 	EXP 	Created sequence: random, trialTypes=1, nReps=4, seed=None
+24.4603 	EXP 	New trial (rep=0, index=0): None
+24.4609 	EXP 	Created sequence: random, trialTypes=1, nReps=24, seed=None
+24.4622 	EXP 	New trial (rep=0, index=0): None
+24.4718 	EXP 	Circle: autoDraw = None
+24.4718 	EXP 	Set first_text text=020
+24.4718 	EXP 	TextStim: autoDraw = None
+24.4718 	EXP 	Set response_text text=
+24.4718 	EXP 	TextStim: autoDraw = None
+25.5836 	DATA 	Keypress: num_2
+26.0677 	EXP 	New trial (rep=1, index=0): None
+26.0861 	EXP 	TextStim: autoDraw = None
+26.0861 	EXP 	TextStim: autoDraw = None
+26.0861 	EXP 	Set first_text text=003
+26.0861 	EXP 	TextStim: autoDraw = None
+26.0861 	EXP 	Set response_text text=
+26.0861 	EXP 	TextStim: autoDraw = None
+26.7844 	DATA 	Keypress: num_3
+27.8183 	EXP 	New trial (rep=2, index=0): None
+27.8328 	EXP 	TextStim: autoDraw = None
+27.8328 	EXP 	TextStim: autoDraw = None
+27.8328 	EXP 	Set first_text text=020
+27.8328 	EXP 	TextStim: autoDraw = None
+27.8328 	EXP 	Set response_text text=
+27.8328 	EXP 	TextStim: autoDraw = None
+28.1499 	DATA 	Keypress: 3
+28.4833 	DATA 	Keypress: 2
+28.7000 	DATA 	Keypress: 1
+28.9338 	DATA 	Keypress: 2
+29.0834 	DATA 	Keypress: 3
+29.3502 	DATA 	Keypress: 3
+29.4670 	DATA 	Keypress: 4
+29.5687 	EXP 	New trial (rep=3, index=0): None
+29.5830 	EXP 	TextStim: autoDraw = None
+29.5830 	EXP 	TextStim: autoDraw = None
+29.5830 	EXP 	Set first_text text=003
+29.5830 	EXP 	TextStim: autoDraw = None
+29.5830 	EXP 	Set response_text text=
+29.5830 	EXP 	TextStim: autoDraw = None
+29.9355 	DATA 	Keypress: 2
+29.9359 	DATA 	Keypress: 8
+29.9519 	DATA 	Keypress: 7
+29.9520 	DATA 	Keypress: 3
+30.1342 	DATA 	Keypress: 4
+30.1344 	DATA 	Keypress: 6
+30.1838 	DATA 	Keypress: 9
+30.3173 	DATA 	Keypress: 7
+30.3175 	DATA 	Keypress: 8
+30.3176 	DATA 	Keypress: 3
+30.3198 	DATA 	Keypress: 5
+30.3841 	DATA 	Keypress: 4
+30.4341 	DATA 	Keypress: 9
+30.4343 	DATA 	Keypress: 8
+30.5341 	DATA 	Keypress: 2
+30.5342 	DATA 	Keypress: 4
+30.5344 	DATA 	Keypress: 3
+30.9842 	DATA 	Keypress: num_5
+31.0342 	DATA 	Keypress: num_4
+31.0673 	DATA 	Keypress: 3
+31.1008 	DATA 	Keypress: 4
+31.2674 	DATA 	Keypress: 2
+31.2841 	DATA 	Keypress: num_2
+31.2843 	DATA 	Keypress: 3
+31.3191 	EXP 	New trial (rep=4, index=0): None
+31.3285 	DATA 	Keypress: num_1
+31.3336 	EXP 	TextStim: autoDraw = None
+31.3336 	EXP 	TextStim: autoDraw = None
+31.3336 	EXP 	Set first_text text=020
+31.3336 	EXP 	TextStim: autoDraw = None
+31.3336 	EXP 	Set response_text text=
+31.3336 	EXP 	TextStim: autoDraw = None
+31.4174 	DATA 	Keypress: num_3
+31.4176 	DATA 	Keypress: num_2
+31.4673 	DATA 	Keypress: 4
+31.6511 	DATA 	Keypress: 2
+32.4844 	DATA 	Keypress: l
+32.5344 	DATA 	Keypress: k
+32.5511 	EXP 	Set response_text text=3 is incorrect
+32.6013 	DATA 	Keypress: j
+32.6173 	EXP 	Set response_text text=2 is correct
+32.6680 	DATA 	Keypress: s
+32.7196 	DATA 	Keypress: l
+32.7679 	DATA 	Keypress: k
+32.7837 	EXP 	Set response_text text=3 is incorrect
+32.8180 	DATA 	Keypress: j
+32.8339 	EXP 	Set response_text text=2 is correct
+32.9499 	DATA 	Keypress: l
+33.0703 	EXP 	New trial (rep=5, index=0): None
+33.0794 	DATA 	Keypress: k
+33.0852 	EXP 	TextStim: autoDraw = None
+33.0852 	EXP 	TextStim: autoDraw = None
+33.0852 	EXP 	Set first_text text=003
+33.0852 	EXP 	TextStim: autoDraw = None
+33.0852 	EXP 	Set response_text text=
+33.0852 	EXP 	TextStim: autoDraw = None
+33.0872 	DATA 	Keypress: j
+33.1171 	EXP 	Set response_text text=2 is incorrect
+33.2680 	DATA 	Keypress: l
+33.3180 	DATA 	Keypress: k
+33.3341 	EXP 	Set response_text text=3 is correct
+33.4681 	DATA 	Keypress: j
+33.4849 	EXP 	Set response_text text=2 is incorrect
+34.3683 	DATA 	Keypress: k
+34.3848 	EXP 	Set response_text text=3 is correct
+34.5686 	DATA 	Keypress: l
+34.8005 	DATA 	Keypress: k
+34.8189 	EXP 	Set response_text text=3 is correct
+34.8213 	EXP 	New trial (rep=6, index=0): None
+34.8402 	EXP 	TextStim: autoDraw = None
+34.8402 	EXP 	TextStim: autoDraw = None
+34.8402 	EXP 	Set first_text text=100
+34.8402 	EXP 	TextStim: autoDraw = None
+34.8402 	EXP 	Set response_text text=
+34.8402 	EXP 	TextStim: autoDraw = None
+35.0186 	DATA 	Keypress: j
+35.0516 	EXP 	Set response_text text=2 is incorrect
+35.5858 	DATA 	Keypress: k
+35.6009 	EXP 	Set response_text text=3 is incorrect
+35.8688 	DATA 	Keypress: l
+36.0689 	DATA 	Keypress: k
+36.1020 	EXP 	Set response_text text=3 is incorrect
+36.2190 	DATA 	Keypress: j
+36.2519 	EXP 	Set response_text text=2 is incorrect
+36.3856 	DATA 	Keypress: l
+36.5190 	DATA 	Keypress: k
+36.5359 	EXP 	Set response_text text=3 is incorrect
+36.5714 	EXP 	New trial (rep=7, index=0): None
+36.5856 	EXP 	TextStim: autoDraw = None
+36.5856 	EXP 	TextStim: autoDraw = None
+36.5856 	EXP 	Set first_text text=020
+36.5856 	EXP 	TextStim: autoDraw = None
+36.5856 	EXP 	Set response_text text=
+36.5856 	EXP 	TextStim: autoDraw = None
+36.6190 	DATA 	Keypress: j
+36.6354 	EXP 	Set response_text text=2 is correct
+36.8011 	DATA 	Keypress: l
+36.8702 	DATA 	Keypress: k
+36.8864 	EXP 	Set response_text text=3 is incorrect
+36.9359 	DATA 	Keypress: j
+36.9522 	EXP 	Set response_text text=2 is correct
+37.4179 	DATA 	Keypress: k
+37.4354 	EXP 	Set response_text text=3 is incorrect
+37.7360 	DATA 	Keypress: j
+37.7532 	EXP 	Set response_text text=2 is correct
+38.0681 	DATA 	Keypress: k
+38.0865 	EXP 	Set response_text text=3 is incorrect
+38.2868 	DATA 	Keypress: l
+38.3204 	EXP 	New trial (rep=8, index=0): None
+38.3365 	EXP 	TextStim: autoDraw = None
+38.3365 	EXP 	TextStim: autoDraw = None
+38.3365 	EXP 	Set first_text text=100
+38.3365 	EXP 	TextStim: autoDraw = None
+38.3365 	EXP 	Set response_text text=
+38.3365 	EXP 	TextStim: autoDraw = None
+38.5868 	DATA 	Keypress: k
+38.6031 	EXP 	Set response_text text=3 is incorrect
+38.7867 	DATA 	Keypress: k
+38.8194 	EXP 	Set response_text text=3 is incorrect
+39.0551 	DATA 	Keypress: j
+39.0864 	EXP 	Set response_text text=2 is incorrect
+39.4533 	DATA 	Keypress: j
+39.4684 	EXP 	Set response_text text=2 is incorrect
+39.8867 	DATA 	Keypress: l
+40.0533 	DATA 	Keypress: k
+40.0850 	EXP 	Set response_text text=3 is incorrect
+40.0874 	EXP 	New trial (rep=9, index=0): None
+40.0977 	EXP 	TextStim: autoDraw = None
+40.0977 	EXP 	TextStim: autoDraw = None
+40.0977 	EXP 	Set first_text text=020
+40.0977 	EXP 	TextStim: autoDraw = None
+40.0977 	EXP 	Set response_text text=
+40.0977 	EXP 	TextStim: autoDraw = None
+40.2199 	DATA 	Keypress: j
+40.2363 	EXP 	Set response_text text=2 is correct
+40.3367 	DATA 	Keypress: l
+40.4365 	DATA 	Keypress: k
+40.4530 	EXP 	Set response_text text=3 is incorrect
+40.4687 	DATA 	Keypress: j
+40.4867 	EXP 	Set response_text text=2 is correct
+40.5866 	DATA 	Keypress: l
+40.6865 	DATA 	Keypress: k
+40.7030 	EXP 	Set response_text text=3 is incorrect
+40.7033 	DATA 	Keypress: j
+40.7196 	EXP 	Set response_text text=2 is correct
+40.8031 	DATA 	Keypress: l
+40.9035 	DATA 	Keypress: k
+40.9148 	DATA 	Keypress: j
+40.9203 	EXP 	Set response_text text=3 is incorrect
+40.9364 	EXP 	Set response_text text=2 is correct
+41.0523 	DATA 	Keypress: l
+41.1201 	DATA 	Keypress: k
+41.1365 	EXP 	Set response_text text=3 is incorrect
+41.1369 	DATA 	Keypress: j
+41.1528 	EXP 	Set response_text text=2 is correct
+41.3190 	DATA 	Keypress: l
+41.3535 	DATA 	Keypress: k
+41.3699 	EXP 	Set response_text text=3 is incorrect
+41.8224 	EXP 	New trial (rep=10, index=0): None
+41.8380 	EXP 	TextStim: autoDraw = None
+41.8380 	EXP 	TextStim: autoDraw = None
+41.8380 	EXP 	Set first_text text=003
+41.8380 	EXP 	TextStim: autoDraw = None
+41.8380 	EXP 	Set response_text text=
+41.8380 	EXP 	TextStim: autoDraw = None
+43.5725 	EXP 	New trial (rep=11, index=0): None
+43.5872 	EXP 	TextStim: autoDraw = None
+43.5872 	EXP 	TextStim: autoDraw = None
+43.5872 	EXP 	Set first_text text=100
+43.5872 	EXP 	TextStim: autoDraw = None
+43.5872 	EXP 	Set response_text text=
+43.5872 	EXP 	TextStim: autoDraw = None
+44.2377 	DATA 	Keypress: l
+44.4212 	DATA 	Keypress: k
+44.4373 	EXP 	Set response_text text=3 is incorrect
+44.6210 	DATA 	Keypress: j
+44.6374 	EXP 	Set response_text text=2 is incorrect
+44.9213 	DATA 	Keypress: j
+44.9382 	EXP 	Set response_text text=2 is incorrect
+45.0039 	DATA 	Keypress: k
+45.0210 	EXP 	Set response_text text=3 is incorrect
+45.0879 	DATA 	Keypress: l
+45.3234 	EXP 	New trial (rep=12, index=0): None
+45.3377 	EXP 	TextStim: autoDraw = None
+45.3377 	EXP 	TextStim: autoDraw = None
+45.3377 	EXP 	Set first_text text=020
+45.3377 	EXP 	TextStim: autoDraw = None
+45.3377 	EXP 	Set response_text text=
+45.3377 	EXP 	TextStim: autoDraw = None
+45.3543 	DATA 	Keypress: k
+45.3708 	EXP 	Set response_text text=3 is incorrect
+45.4555 	DATA 	Keypress: j
+45.4875 	EXP 	Set response_text text=2 is correct
+45.7041 	DATA 	Keypress: k
+45.7212 	EXP 	Set response_text text=3 is incorrect
+45.8042 	DATA 	Keypress: l
+46.0882 	DATA 	Keypress: k
+46.1036 	EXP 	Set response_text text=3 is incorrect
+46.1880 	DATA 	Keypress: j
+46.2044 	EXP 	Set response_text text=2 is correct
+46.3710 	DATA 	Keypress: k
+46.3881 	EXP 	Set response_text text=3 is incorrect
+46.4709 	DATA 	Keypress: l
+46.6884 	DATA 	Keypress: k
+46.7054 	EXP 	Set response_text text=3 is incorrect
+46.7703 	DATA 	Keypress: j
+46.7882 	EXP 	Set response_text text=2 is correct
+46.9551 	DATA 	Keypress: k
+46.9660 	DATA 	Keypress: l
+46.9714 	EXP 	Set response_text text=3 is incorrect
+47.0739 	EXP 	New trial (rep=13, index=0): None
+47.0890 	EXP 	TextStim: autoDraw = None
+47.0890 	EXP 	TextStim: autoDraw = None
+47.0890 	EXP 	Set first_text text=003
+47.0890 	EXP 	TextStim: autoDraw = None
+47.0890 	EXP 	Set response_text text=
+47.0890 	EXP 	TextStim: autoDraw = None
+47.1048 	DATA 	Keypress: j
+47.1212 	EXP 	Set response_text text=2 is incorrect
+47.2372 	DATA 	Keypress: l
+47.3554 	DATA 	Keypress: k
+47.3656 	DATA 	Keypress: j
+47.3715 	EXP 	Set response_text text=3 is correct
+47.3883 	EXP 	Set response_text text=2 is incorrect
+47.5039 	DATA 	Keypress: l
+47.5720 	DATA 	Keypress: k
+47.5887 	EXP 	Set response_text text=3 is correct
+47.6215 	DATA 	Keypress: j
+47.6382 	EXP 	Set response_text text=2 is incorrect
+47.7720 	DATA 	Keypress: l
+47.8237 	DATA 	Keypress: k
+47.8551 	EXP 	Set response_text text=3 is correct
+47.8718 	DATA 	Keypress: j
+47.9051 	EXP 	Set response_text text=2 is incorrect
+48.0054 	DATA 	Keypress: l
+48.0887 	DATA 	Keypress: k
+48.1051 	EXP 	Set response_text text=3 is correct
+48.1892 	DATA 	Keypress: j
+48.2051 	EXP 	Set response_text text=2 is incorrect
+48.8231 	EXP 	New trial (rep=14, index=0): None
+48.8387 	EXP 	TextStim: autoDraw = None
+48.8387 	EXP 	TextStim: autoDraw = None
+48.8387 	EXP 	Set first_text text=100
+48.8387 	EXP 	TextStim: autoDraw = None
+48.8387 	EXP 	Set response_text text=
+48.8387 	EXP 	TextStim: autoDraw = None
+50.0070 	DATA 	Keypress: escape

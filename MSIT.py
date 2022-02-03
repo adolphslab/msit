@@ -44,13 +44,8 @@ INTERFERENCE_BLOCK = 444
 # if Lumina == not found).
 LUMINA = 0
 
-# Value returned by the Lumina when each of the buttons == pressed
-LUMINA_BUTTON_1 = 0
-LUMINA_BUTTON_2 = 1
-LUMINA_BUTTON_3 = 2
-
 # Value returned by the Lumina when a trigger (scanner) pulse == received
-LUMINA_TRIGGER = 4
+LUMINA_TRIGGER = 5
 
 # Task instructions:
 task_instructions1 = """\
@@ -189,9 +184,12 @@ thisExp = data.ExperimentHandler(name=expName, version='',
 from psychopy import visual
 
 # Setup the Window
-win = visual.Window(size=(1024, 768),
+# 2022-02-03 JMT Adapt for CBIC projector
+# Native projector resolution 1400 x 1050
+# Projector on screen 1
+win = visual.Window(size=(1400, 1050),
                     fullscr=FULL_SCREEN,
-                    screen=0,
+                    screen=1,
                     allowGUI=False,
                     allowStencil=False,
                     monitor='testMonitor',
@@ -209,61 +207,64 @@ else:
 # Initialize various display components #
 #########################################
 
+# 2022-02-03 JMT Add text parameters for instruction screen
+wrap_width = 1.75
+
 # Initialize components for Routine "instruct"
 instructClock = core.Clock()
 instruct_text1 = visual.TextStim(win=win, ori=0, name='instruct_text1',
     text=task_instructions1,
     font='Arial',alignHoriz='center', alignVert='center',
-    pos=[0, 0.5], height=0.08, wrapWidth=1.5,
+    pos=[0, 0.5], height=0.08, wrapWidth=wrap_width,
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
 instruct_text2 = visual.TextStim(win=win, ori=0, name='instruct_text2',
     text=task_instructions2,
     font='Arial',alignHoriz='center', alignVert='center',
-    pos=[0, 0.42], height=0.08, wrapWidth=1.5,
+    pos=[0, 0.42], height=0.08, wrapWidth=wrap_width,
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
 instruct_text3 = visual.TextStim(win=win, ori=0, name='instruct_text3',
     text=task_instructions3,
     font='Arial',alignHoriz='center', alignVert='center',
-    pos=[0, 0.26], height=0.08, wrapWidth=1.5,
+    pos=[0, 0.26], height=0.08, wrapWidth=wrap_width,
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
 instruct_text4 = visual.TextStim(win=win, ori=0, name='instruct_text4',
     text=task_instructions4,
     font='Arial',alignHoriz='center', alignVert='center',
-    pos=[0, 0.08], height=0.08, wrapWidth=1.5,
+    pos=[0, 0.08], height=0.08, wrapWidth=wrap_width,
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
 instruct_text5 = visual.TextStim(win=win, ori=0, name='instruct_text5',
     text=task_instructions5,
     font='Arial',alignHoriz='center', alignVert='center',
-    pos=[0, 0.0], height=0.08, wrapWidth=1.5,
+    pos=[0, 0.0], height=0.08, wrapWidth=wrap_width,
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
 instruct_text6 = visual.TextStim(win=win, ori=0, name='instruct_text6',
     text=task_instructions6,
     font='Arial',alignHoriz='center', alignVert='center',
-    pos=[0, -0.16], height=0.08, wrapWidth=1.5,
+    pos=[0, -0.16], height=0.08, wrapWidth=wrap_width,
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
 instruct_text7 = visual.TextStim(win=win, ori=0, name='instruct_text7',
     text=task_instructions7,
     font='Arial',alignHoriz='center', alignVert='center',
-    pos=[0, -.24], height=0.08, wrapWidth=1.5,
+    pos=[0, -.24], height=0.08, wrapWidth=wrap_width,
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
 instruct_text8 = visual.TextStim(win=win, ori=0, name='instruct_text8',
     text=task_instructions8,
     font='Arial',alignHoriz='center', alignVert='center',
-    pos=[0, -0.40], height=0.08, wrapWidth=1.5,
+    pos=[0, -0.40], height=0.08, wrapWidth=wrap_width,
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
@@ -665,18 +666,12 @@ for thisExp_loop in exp_loop:
                             if response["key"] in [0,1,2]:
                                 theseKeys.append(str(response["key"]+1))
                 else:
-                    theseKeys = event.getKeys(keyList=['h', 'j', 'k', 'left',\
-                        'down','right'])
+                    # 2022-02-03 JMT Set Current Designs button response list
+                    theseKeys = event.getKeys(keyList=['1', '2', '3'])
 
                 if len(theseKeys) > 0:  # at least one key was pressed
                     first_resp.keys = theseKeys[-1]  # just the last key pressed
                     first_resp.rt = first_resp.clock.getTime()
-                    if first_resp.keys == 'left' or first_resp.keys == 'h':
-                        first_resp.keys = '1'
-                    elif first_resp.keys == 'down' or first_resp.keys == 'j':
-                        first_resp.keys = '2'
-                    elif first_resp.keys == 'right' or first_resp.keys == 'k':
-                        first_resp.keys = '3'
 
                     # was this 'correct'?
                     if (first_resp.keys == str(first_correct_str)):

@@ -1,0 +1,6 @@
+exp_loop.thisRepN,exp_loop.thisTrialN,exp_loop.thisN,exp_loop.thisIndex,exp_loop.thisTrial,first_loop.thisRepN,first_loop.thisTrialN,first_loop.thisN,first_loop.thisIndex,first_loop.thisTrial,first_text_str,first_correct_str,first_resp.keys,first_resp.corr,first_resp.rt,Participant ID,Starting Block,Session,frameRate,expName,date,Configuration,
+0,0,0,0,None,0,0,0,0,None,100,1,None,0,,PracticeKeys,Control,001,60.261697203,MSIT,2022_Feb_03_0907,Practice,
+0,0,0,0,None,1,0,1,0,None,020,2,2,1,0.701356291771,PracticeKeys,Control,001,60.261697203,MSIT,2022_Feb_03_0907,Practice,
+0,0,0,0,None,2,0,2,0,None,003,3,3,1,0.61912602745,PracticeKeys,Control,001,60.261697203,MSIT,2022_Feb_03_0907,Practice,
+0,0,0,0,None,3,0,3,0,None,100,1,1,1,0.707959896885,PracticeKeys,Control,001,60.261697203,MSIT,2022_Feb_03_0907,Practice,
+0,0,0,0,None,4,0,4,0,None,003,3,2,0,0.424371727742,PracticeKeys,Control,001,60.261697203,MSIT,2022_Feb_03_0907,Practice,
